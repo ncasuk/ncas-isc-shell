@@ -22,9 +22,9 @@ the concepts are similar,
 but the rules are different.
 
 Let's start with Nelle.
-She has a unique [user name]({{ page.root }}/reference/{{ site.index }}#user-name),
+She has a unique [user name]({{ page.root }}/reference{{ site.index }}#user-name),
 `nnemo`,
-and a [user ID]({{ page.root }}/reference/{{ site.index }}#user-id),
+and a [user ID]({{ page.root }}/reference{{ site.index }}#user-id),
 1404.
 
 > ## Why Integer IDs?
@@ -49,9 +49,9 @@ and a [user ID]({{ page.root }}/reference/{{ site.index }}#user-id),
 > instead of "the chronotypical alpha-response trials on anacondas".
 {: .callout}
 
-Users can belong to any number of [groups]({{ page.root }}/reference/{{ site.index }}#user-group),
-each of which has a unique [group name]({{ page.root }}/reference/{{ site.index }}#user-group-name)
-and numeric [group ID]({{ page.root }}/reference/{{ site.index }}#user-group-id).
+Users can belong to any number of [groups]({{ page.root }}/reference{{ site.index }}#user-group),
+each of which has a unique [group name]({{ page.root }}/reference{{ site.index }}#user-group-name)
+and numeric [group ID]({{ page.root }}/reference{{ site.index }}#user-group-id).
 The list of who's in what group is usually stored in the file `/etc/group`.
 (If you're in front of a Unix machine right now,
 try running `cat /etc/group` to look at that file.)
@@ -286,7 +286,7 @@ It gives someone the right to *traverse* the directory, but not to look at its c
 The distinction is subtle, so let's have a look at an example.
 Vlad's home directory has three subdirectories called `venus`, `mars`, and `pluto`:
 
-![execute]({% link fig/x-for-directories.svg %} "Execute Permission for Directories")
+![Execute Permission for Directories](../fig/x-for-directories.svg)
 
 Each of these has a subdirectory in turn called `notes`,
 and those sub-subdirectories contain various files.
@@ -307,7 +307,7 @@ without opening up everything else.
 
 Those are the basics of permissions on Unix.
 As we said at the outset, though, things work differently on Windows.
-There, permissions are defined by [access control lists]({{ page.root }}/reference/{{ site.index }}#access-control-list),
+There, permissions are defined by [access control lists]({{ page.root }}/reference{{ site.index }}#access-control-list),
 or ACLs.
 An ACL is a list of pairs, each of which combines a "who" with a "what".
 For example,
@@ -335,10 +335,19 @@ but hardly anyone uses them.
 > 2. caro (the owner) cannot write to myfile.php
 > 3. members of caro (a group) can read, write, and execute myfile.php
 > 4. members of zoo (a group) cannot execute myfile.php
-> > ### Solution
-> > TODO
+>
+> > ## Solution
+> > Option 1 is correct. The first triplet `rwx` indicates that the owner can read, write, and
+> > execute myfile.php. We know that caro is the owner because they are listed in the third column.
+> > 
+> > Option 2 is incorrect as we have just shown that caro can read, write, and execute myfile.php.
 > >
-> {: solution}
+> > Option 3 is also incorrect because caro is not a group but an owner. The group that owns this file
+> > is zoo.
+> >
+> > Option 4 is also incorrect because the second triplet `r-x` indicates that the group zoo can read
+> > and execute myfile.php.
+> {: .solution}
 {: .challenge}
 
 {% include links.md %}

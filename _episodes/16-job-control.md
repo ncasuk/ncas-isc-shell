@@ -20,7 +20,7 @@ The shell-novice lesson explained how we run programs or scripts from
 the shell's command line.
 
 We'll now take a look at how to control programs *once they're running*. This
-is called [job control]({{ page.root }}/reference/{{ site.index }}#job-control), and while it's less
+is called [job control]({{ page.root }}/reference{{ site.index }}#job-control), and while it's less
 important today than it was back in the Dark Ages, it is coming back
 into its own as more people begin to leverage the power of computer
 networks.
@@ -108,7 +108,7 @@ permissions: each process is allowed to access exactly the same things as
 the user running it, no more, no less.
 
 Column 5, STIME, shows when the process started running, whilst Column 7,
-TIME, shows you how much time process has used, whilst Column 8,
+TIME, shows you how much time the process has used, whilst Column 8,
 CMD, shows what program the process is executing.
 
 Column 6, TTY, shows
@@ -148,7 +148,7 @@ $ ./analyze results*.dat
 
 Let's run that same command again, with an ampersand `&` at the end of
 the line to tell the shell we want it to run in the
-[background]({{ page.root }}/reference/{{ site.index }}#background):
+[background]({{ page.root }}/reference{{ site.index }}#background):
 
 ~~~
 $ ./analyze results*.dat &

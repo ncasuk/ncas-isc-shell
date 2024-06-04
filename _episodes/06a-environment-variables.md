@@ -67,7 +67,7 @@ it's the program's responsibility to split the variable's string value into piec
 ## The `PATH` Variable
 
 Let's have a closer look at that `PATH` variable.
-Its value defines the shell's [search path]({{ page.root }}/reference/{{ site.index }}#search-path),
+Its value defines the shell's [search path]({{ page.root }}/reference{{ site.index }}#search-path),
 i.e., the list of directories that the shell looks in for runnable programs
 when you type in a program name without specifying what directory it is in.
 
@@ -214,7 +214,7 @@ in your favorite search engine.
 ## Child Processes and `export`
 
 A running command is called a process. All processes are created by other processes. Most of the time you are using
-your running `bash` process to launch processes by typeing commands. Each of these processs can be 
+your running `bash` process to launch processes by typing commands. Each of these processs can be 
 called a *child process* of your `bash` shell pprocess. A child process is started with all the variables marked for export in the parent process.
 Remember our pipe and filter example, let's put the `bash` process in the picture too.
 

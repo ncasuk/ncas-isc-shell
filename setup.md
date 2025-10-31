@@ -14,7 +14,7 @@ You need to download some files to follow this lesson.
 
 ## Install software
 On Mac or Linux the program you need will be there by default. If you do not already have the shell software installed (windows users), you will need to
-[download and install][install_shell] it.
+[download and install][https://carpentries.github.io/workshop-template/#shell] it.
 
 ## Have a text editor
 We need a plain text editor not a word processor. 

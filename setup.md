@@ -7,10 +7,10 @@ root: .
 ## Download files
 You need to download some files to follow this lesson.
 
-1. Download [shell-lesson-data.zip][zip-file] and move the file to your Desktop.
+1. Download [shell-lesson-data.zip][zip-file] and move the file to your Documents folder.
 2. Unzip/extract the file.
    **Let your instructor know if you need help with this step**.
-   You should end up with a new folder called **`shell-lesson-data`** on your Desktop.
+   You should end up with a new folder called **`shell-lesson-data`** in your Documents folder.
 
 ## Install software
 On Mac or Linux the program you need will be there by default. If you do not already have the shell software installed (windows users), you will need to

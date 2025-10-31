@@ -13,8 +13,11 @@ You need to download some files to follow this lesson.
    You should end up with a new folder called **`shell-lesson-data`** in your Documents folder.
 
 ## Install software
-On Mac or Linux the program you need will be there by default. If you do not already have the shell software installed (windows users), you will need to
-[download and install](https://carpentries.github.io/workshop-template/#shell) it. **Important:** If you already have Git for Windows or Windows Subsystem for Linux installed on your machine, you can use it for the course and there is no need to install additional software. If you do not have either of these already installed, we recommend you follow the instructions to install Git for Windows. This applies even if your operating system is Windows 10 (#1903 and above) or Windows 11. Git for Windows is easier and quicker to install and is perfectly adequate for the requirements of the NCAS Introduction to Scientific Computing course.
+On Mac or Linux the program you need will be there by default.
+
+For windows users, if you do not already have a shell software installed, we suggest for this course you use [Git for Windows](https://carpentries.github.io/workshop-template/#shell-install-gitbash) (regardless of Windows version) by downloading and installing it. 
+
+Important: If you already have Git for Windows or Windows Subsystem for Linux installed on your machine, you can use it for the course and there is no need to install additional software. If you do not have either of these already installed, we recommend you follow the instructions to install Git for Windows. This applies even if your operating system is Windows 10 (#1903 and above) or Windows 11. Git for Windows is easier and quicker to install and is perfectly adequate for the requirements of the NCAS Introduction to Scientific Computing course.
 
 ## Have a text editor
 We need a plain text editor not a word processor. 

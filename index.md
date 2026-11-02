@@ -10,5 +10,7 @@ that makes it such a powerful tool.  This lesson aims to supplement the
 material in that lesson with short topical lessons on particular shell
 features that are useful to researchers.
 
+Last updated 02/11/2026
+
 
 {% include links.md %}

@@ -1,6 +1,6 @@
 ---
 title: "BREAK"
-teaching: 1000
+teaching: -200
 exercises: 0
 questions: 🥤 Coffee or 🫖 Tea?
 objectives:

@@ -1,7 +1,7 @@
 ---
-title: "Loops"
+title: "Day 1: Loops"
 teaching: 25
-exercises: 10
+exercises: 15
 questions:
 - "How can I perform the same actions on many different files?"
 objectives:

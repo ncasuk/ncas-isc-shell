@@ -1,6 +1,6 @@
 ---
-title: "Permissions"
-teaching: 10
+title: "Day 2: Permissions"
+teaching: 15
 exercises: 0
 questions:
 - "Understanding file/directory permissions"

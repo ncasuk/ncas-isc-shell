@@ -1,6 +1,6 @@
 ---
-title: "Course Logistics and Getting to know people "
-teaching: 30
+title: "Day 1: Course Logistics and Getting to know people"
+teaching: 20
 exercises: 0
 questions:
 - "Who are you?"

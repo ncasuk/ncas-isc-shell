@@ -1,6 +1,6 @@
 ---
-title: Job control
-teaching: 5
+title: "Day 2: Job control"
+teaching: 15
 exercises: 0
 questions:
 - "How do keep track of the process running on my machine?"

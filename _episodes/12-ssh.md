@@ -1,6 +1,6 @@
 ---
-title: "Working Remotely"
-teaching: 10
+title: "Day 2: Working Remotely"
+teaching: 15
 exercises: 0
 questions:
 - "How do I use '`ssh`' and '`scp`' ?"

@@ -1,5 +1,5 @@
 ---
-title: "BREAK"
+title: "Day 1: Morning Break"
 teaching: 15
 exercises: 0
 questions:
@@ -7,6 +7,5 @@ questions:
 objectives:
 - "Make sure we are not too overloaded"
 ---
-
 
 {% include links.md %}

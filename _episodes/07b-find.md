@@ -1,6 +1,6 @@
 ---
-title: "Finding Things"
-teaching: 25
+title: "Day 2: Finding Things"
+teaching: 35
 exercises: 20
 questions:
 - "How can I find files?"

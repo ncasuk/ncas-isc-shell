@@ -1,6 +1,6 @@
 ---
-title: "Pipes and Filters"
-teaching: 25
+title: "Day 1: Pipes and Filters"
+teaching: 30
 exercises: 10
 questions:
 - "How can I combine existing commands to do new things?"

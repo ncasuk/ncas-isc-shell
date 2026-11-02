@@ -1,7 +1,7 @@
 ---
-title: "Shell Scripts"
-teaching: 30
-exercises: 15
+title: "Day 2: Shell Scripts"
+teaching: 35
+exercises: 25
 questions:
 - "How can I save and re-use commands?"
 objectives:
